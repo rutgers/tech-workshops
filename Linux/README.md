@@ -58,3 +58,31 @@ Play around, and remember! If you ever get lost, remember these key shortcuts!
 * `cd` - (no arguments) return to home directory
 * `cd -` - return to previous directory
 * `cd ..` - return to parent directory
+
+## Module 2 - File/Directory Manipulation
+
+More to come.
+
+## Module 3 - Command Information and Manpages
+
+More to come.
+
+## Module 4 - Piping and Redirecting I/O
+
+More to come.
+
+## Module 5 - Package Management Tools
+
+More to come.
+
+## Module 6 - Compiling Programs from Source/Makefiles
+
+More to come.
+
+## Module 7 - Putting it All Together
+
+More to come.
+
+## Module 8 - References
+
+More to come.
