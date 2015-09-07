@@ -1,4 +1,6 @@
 1. Command Line Lessons
-  a. Basic Syntax (Math, printing, loops)
-  b. Fizzbuzz
-2. Pygame
+  a. Uses of Python (Scraping websites, making games, analyzing data, creating websites)
+  b. General Python Characteristics (interpreted, dynamically typed)
+  c. Basic Syntax (Math, printing, loops)
+  d. Fizzbuzz
+2. Create Basic Webscraper
