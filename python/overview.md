@@ -9,3 +9,5 @@
   d. Fizzbuzz
   
 2. Create Basic Webscraper
+
+  a. Base off - http://blog.miguelgrinberg.com/post/easy-web-scraping-with-python
