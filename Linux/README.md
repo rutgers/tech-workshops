@@ -10,49 +10,59 @@ More to come.
 
 ## Module 1 - Navigating the File System
 
-### 1a. Starting Out
+### 1a. The Linux Filesystem
 
-When you first open your terminal, most likely you will see the following:
+Here are some of the most important directores in the Linux filesystem: 
 
-```shell
-[jeremy@UnsungWitness ~]$
-```
+| Directory         | Function                                      |
+| ----------------- | --------------------------------------------- |
+| `/`               | root, all directories descend from this       | 
+| `/bin`            | contains system binaries or programs          |
+| `/boot`           | contains Linux kernel and bootloader          |
+| `/dev`            | contains device nodes                         |
+| `/etc`            | contains system config files                  |
+| `/home` or `~`    | only dir where ordinary users can write files |
+| `/media`          | mount points for removable media (USB drives) |
+| `/opt`            | used to install optional software             |
+| `/usr`            | all programs used by regular users            |
 
-The first item is your **username**. The second item is your computer's **hostname**.
-See the `~` symbol? That's shorthand for your **home directory**. The `$` symbol
-will be explained in a later module. But for now, know that when you first open
-a terminal, you will most likely start out in the home directory. Of course, our
-journey should start close to home right?
+### 1b. Moving Around and Making Discoveries
 
-Our home directory (and all subdirectories) is the only place where regular
-users can write files. Elsewhere, we would need root privileges to write a file
-(which will be explained in a later module).
+#### Finding about the Current Directory
 
-If we want to know our current directory, we can use the following command:
 * `pwd` - print working directory
+* `ls` - list files and directories in the working directory
 
-For example, if I opened a terminal and entered `pwd`, I would get the following
-output:
+The `ls` command has some useful additional flags you can pass depending on the
+output that you want:
 
-``` shell
-/home/jeremy
-```
-So what's in this directory? We can use the following command to find out: 
-* `ls` - list files and directories in current working directory
+* `-l` - display results in long format
+* `-a` - include all files including hidden files (begin with . in the
+      filename)
+* `-h` - display filesizes in human readable format (eg. 4K) vs in bytes
+* `-r` - display results in reverse order
+* `-t` - sort by last modified time`
 
-In the home directory, you will most likely have a number of directories
-(Documents, Downloads, Pictures, etc.). We can actually see what is in these
-directories without entering them. Use the following command:
-* `ls *dir*` - list files and directories in *dir*
+You can use multiple flags at once, as in the command `ls -lha`. This will
+list all files in long format with their sizes displayed in human readable
+format.
 
-Now we can figure out what the contents of other directories are. But how do we
-get to them? We need to change directories with the following command:
-* '`cd *dir*` -  change working directory to *dir*
+#### Moving to Other Directories
 
-To better understand navigation, let's take a look at the Linux filesystem. It's
-much like a tree. The filesystem begins at the root directory `/` and all other
-directories branch from this root. 
-More info about absolute vs. relative paths...
+* `cd <dir>` - change current working directory to *<dir>*
+
+For this section, here is some useful notation to know:
+* `/` - the root directory
+* `~` - the home directory
+* `.` - the current directory
+* `..` - the parent directory
+
+You don't have to be in a certain directory to list the directory's contents. You can list any directory's contents with:
+* `ls <dir>` - list files in directories of *<dir>*
+
+You can also get information about any file you encounter. Use the following commands:
+* `file <file>` - get information about *<file>*'s type
+* `less </path/to/file>` - view contents of a file
 
 Play around, and remember! If you ever get lost, remember these key shortcuts!
 * `cd` - (no arguments) return to home directory
