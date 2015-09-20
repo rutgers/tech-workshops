@@ -124,7 +124,29 @@ Options for the `rm` command:
 
 ## Module 3 - Command Information and Manpages
 
-More to come.
+* `type <command>` - display a command's type
+* `which <command>` - display an **executable's** location (will not work on
+shell built-ins)
+
+There are actually different types of commands:
+* executables
+* shell built-in commands (`cd`)
+* shell functions
+* alias - user-defined command built from other commands
+
+### Command Documentation
+
+* `help <command>` - get help on shell built-in command
+* `<command> --help` - get help on an executable command
+* `man <command>` - show a program's manual/man page 
+
+A man page is like a formal reference for a command. It usually lists the
+command syntax, purpose, and descriptions of the command options. They ususally
+do not include many examples, so use it more as a reference.
+
+* `apropos <term>` - show appropriate commands based on search term
+  * The first field shows the command man page, and the second field shows the
+    section
 
 ## Module 4 - Piping and Redirecting I/O
 
