@@ -173,6 +173,48 @@ PDF reader, but one that prints a lot of messages to the terminal).
 
 ### Redirecting Standard Input
 
+* `cat <file1> <file2> ... <fileN>` - reads files and copies input to standard
+  output
+
+For example, if you had a large file that was split into multiple parts (something
+like `my-list.01.txt ... my-list.09.txt`, we could use `cat` to join the files
+together:
+ 
+`cat my-list.0*.txt > my-list.txt` 
+
+### Pipelines
+
+* `command 1 | command 2` - redirect standard output of command 1 to standard
+  input of command 2`
+
+A common example to do is view the the output of a command:
+
+`ls /usr/local | less`
+
+You can also pipe multiple commands together, for example:
+
+`ls /usr/local /usr/bin | sort | less`
+
+The first command lists the files and directories in `/usr/local` and `/usr/bin`
+and then pipes it to the `sort` command. The `sort` command then sorts the input
+list and outputs a sorted list of the files and directories. `less` than allows
+the user to view the list.
+
+`sort` is an example of a *filter*. Some other very useful filters are:
+* `uniq` - omit repeated lines (use `uniq -d` to see the list of duplicated
+  lines
+* `wc` - display amount of lines, bytes, and words in a file (`wc -l` only will
+  print the number of lines)
+* `grep <pattern>` - display lines that match a pattern (simple text pattern or regular
+  expression)
+  * `-i` - ignore case
+  * `-v` - print lines not matching pattern
+* `head` - print first ten lines (can specify # of lines like `head -n 5`)
+* `tail` - print last ten lines (can specify # of lines like `tail -n 3`)
+* `tee <file>` - pipe output of command to both *file* and standard output
+
+Add some examples:
+
 ## Module 5 - Package Management Tools
 
 TODO: revan
