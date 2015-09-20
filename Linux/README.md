@@ -128,7 +128,50 @@ More to come.
 
 ## Module 4 - Piping and Redirecting I/O
 
-More to come.
+### Redirecting Standard Output
+
+To redirect standard output to a file instead of the terminal use the
+redirection command:
+* `>` - redirect output of a command to a file instead of a terminal
+* Example: `ls -ltr ~/Documents > documents-output.txt`
+* View the output of this command with `less documents-output.txt`
+
+Note that using `>` will rewrite the destination file from the beginning. To
+append to the file instead, use the `>>` command:
+* `>>` - same as `>`, but appends file vs. rewriting file
+* `echo "Hello" >> somefile.txt`
+* `echo "Rutgers IEEE" >> somefile.txt`
+* `less somefile.txt`
+
+With this in mind, if we redirect nothing to a file (`> nothingfile.txt`), if
+the file exists, it is truncated. If the file does not exist, it creates a new
+empty file, similar to the command `touch nothingfile.txt`.
+
+### Redirecting Standard Error
+
+If we want to redirect standard error, we need to use the file descriptor
+number. The three most common file descriptor numbers for I/O redirection are:
+* 0 - standard input
+* 1 - standard output (implied with `>` and `>>` commands)
+* 2 - standard error
+
+With this in mind, we can use `2>` or `2>>` to redirect standard error to a file
+like how we did with standard output.
+* `ls -t /bin/usr 2>> error-text.txt`
+
+Sometimes we want to redirect both standard output and standard error to a file.
+We can use `&>` or `&>>` to redirect both standard output and standard error.
+* `ls -t /bin/usr &> error-std-text.txt`
+
+One very useful thing we could do especially if we are using a command that puts
+a lot of status and error messages to the terminal is directing it to a file
+called `/dev/null` aka the *bit bucket*. This file accepts input but does
+nothing with it. For example we could use this command with Okular (an awesome
+PDF reader, but one that prints a lot of messages to the terminal).
+
+`okular some-file.pdf &> /dev/null`
+
+### Redirecting Standard Input
 
 ## Module 5 - Package Management Tools
 
