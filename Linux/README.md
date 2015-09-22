@@ -245,10 +245,60 @@ TODO: revan
 
 More to come.
 
-## Module 7 - Putting it All Together
+## Module 7 - File Permissions
 
-More to come.
+All files and directories in Linux have three main file attributes: read access,
+write access, and execution access. If you do `ls -l` on some directory, you may
+see something like this on the left side:
+
+`-rwxrw-rw-`
+
+The first character represents the file type. `-` represents a regular file. `d`
+represents a directory. `l` represents a symbolic link (similar to a shortcut in
+Windows).
+
+The next triplets of `rwx` represent the actual permission attributes. The first
+triplet represents permissions of the **owner**. The second triplet represents
+permissions of the **owner's group** (groups are beyond the scope of this tutorial).
+The last triplet represents permissions of the **world** (all other users). Our
+example shows a regular file where the owner has read, write, and execution
+access, while the owner's group and the world only has read and write access,
+but no execution access.
+
+We can change a file's permissions with the `chmod` command. Note that only the
+owner or root can use this command.
+
+There are two main ways to use the chmod command: octal digits or the symbolic
+representation. 
+
+`chmod 755 someScript.sh`
+
+The 755 represents three octal digits each representing the permissions of the
+owner, the owner's group, and the world respectively. For example, 7 in octal
+represents the binary number 111 -> `rwx`. 5 in octal represents the binary
+number `101` -> `r-x`. So the above command will set `someScript.sh` to have
+read, write, and execution access for the owner, and read and execution access
+for the owner's group and the world.
+
+In symbolic notation, there are a few symbols to note:
+* `u` - user (file/directory owner)
+* `g` - group owner
+* `o` - others (world)
+* `a` - all (implied if not specified)
+
+We then add a few more symbols:
+* `+` - add permission
+* `-` - remove permission
+* `=` - set permission
+
+With both of these, we now can write some example settings:
+* `u+x` - add execution access to the owner
+* `o-rw` - remove read and write permissions from world
+* `u-x, o=rw` - remove execution access from owner, set world to have read and
+  write access
 
 ## Module 8 - References
 
-More to come.
+www.linuxcommand.org
+
+www.ee.surrey.ac.uk/Teaching/Unix
