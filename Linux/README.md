@@ -239,7 +239,25 @@ Add some examples:
 
 ## Module 5 - Package Management Tools
 
-TODO: revan
+On Linux systems, it's possible to install (most) of your software from the terminal. This is cool because it means no need to google around for everything, and there's an easy single way to update everything.
+
+OS X has a package manager written for it called [homebrew](http://brew.sh/).
+(Side note: check out [homebrew cask](http://caskroom.io/), which adds apps like Spotify to homebrew -- later! The internet in this room probably can't handle it.)
+
+This section can't be done on the server, because it requires root access, so follow along locally or just sit tight.
+
+### Searching
+`$ apt-cache search latex`
+
+### Installing
+Once you know the name of the package you want to install, one command will install it for you. In this case we're installing the build tools (for compiling C and C++).
+`$ sudo apt-get install build-essential`
+
+Some commericial apps aren't available in the standard Ubuntu repositories, but you can find instructions for adding them online like for [Spotify](https://www.spotify.com/us/download/linux/).
+
+### Upgrading
+`$ sudo apt-get update`
+`$ sudo apt-get upgrade`
 
 ## Module 6 - Compiling Programs from Source/Makefiles
 
