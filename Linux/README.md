@@ -261,7 +261,79 @@ Some commericial apps aren't available in the standard Ubuntu repositories, but 
 
 ## Module 6 - Compiling Programs from Source/Makefiles
 
-More to come.
+Next we'll briefly touch on compiling C/C++ code. We're not getting into _writing_ C/C++ since that's a bit... involved.
+
+Let's lay out a simple example. We have the file `main.c`:
+
+```c
+#include <stdio.h>
+
+int main() {
+    printf("ieee\n");
+}
+```
+
+To compile it, `cd` into the directory where this file is, then enter `gcc main.c -o main`. `ls` to check that we've made a new file, `main`. Run it with `./main`.
+
+But let's say you have a bigger project, across multiple files.
+
+`main.c`:
+```c
+#include <stdio.h>
+#include "helper.h"
+
+int main() {
+    printf(really_cool_string);
+}
+```
+
+`helper.c`:
+```c
+char* really_cool_string = "ieee\n";
+```
+
+`helper.h`:
+```c
+char* really_cool_string;
+```
+
+Compile like before, but you need to compile both `main.c` and `helper.c`: `gcc main.c helper.c -o main`. If you leave out `helper.c` from the command it won't complain, but your program just won't work (thanks, C!).
+
+Now imagine you have a bigger project, with twenty files. Typing out the compile command gets annoying, so... enter make files!
+
+`make` is a tool to automate compiling. You write a file (name it `makefile`) with instructions on how to compile your project.
+
+`makefile`:
+```make
+all:
+    gcc main.c helper.c -o main
+
+clean:
+    rm main
+```
+
+If you run `make`, it'll do the first command, and if you run `make clean` it'll do the second (delete the binary).
+
+But now, a cool trick: in big projects, compiling can take several minutes, so we want to avoid recompiling files that haven't changed.
+
+```makefile
+all: main.o helper.o
+    gcc main.o helper.o -o main
+
+main.o:
+    gcc -c main.c
+
+helper.o:
+    gcc -c helper.c
+
+clean:
+    rm *.o main
+```
+
+We store intermediate compiled files as `.o` files, which we can quickly "link" together to finish the compile. If we change just `helper.c`, only `helper.o` would be recompiled, not `main.o`.
+
+
+Rather than making make files yourself, though, you can find a sane [Generic Makefile](https://github.com/mbcrawfo/GenericMakefile) that'll compile and link all the source files in a directory.
 
 ## Module 7 - File Permissions
 
