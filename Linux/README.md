@@ -96,7 +96,7 @@ Play around, and remember! If you ever get lost, remember these key shortcuts!
 * `mv` - move or rename files or directories
 
 The `cp` command has two main uses:
-* `cp <file1> <file2> - copy file/directory *item1* to *item2*
+* `cp` <file1> <file2> - copy file/directory *item1* to *item2*
 * `cp <file1> <file2> ... <fileN> <dir>` - copy files *file1* to *fileN* to
   directory *dir*
 
@@ -234,8 +234,6 @@ the user to view the list.
 * `head` - print first ten lines (can specify # of lines like `head -n 5`)
 * `tail` - print last ten lines (can specify # of lines like `tail -n 3`)
 * `tee <file>` - pipe output of command to both *file* and standard output
-
-Add some examples:
 
 ## Module 5 - Package Management Tools
 
