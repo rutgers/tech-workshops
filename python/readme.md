@@ -13,4 +13,4 @@ Lorem Ipsum
 ### 1a. 
 
 ## Module - References
-
+http://blog.miguelgrinberg.com/post/easy-web-scraping-with-python
