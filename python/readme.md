@@ -13,6 +13,7 @@ We'll be using Requests (http://docs.python-requests.org/en/latest/) to load web
 Requests makes it easy to retrieve data from webpages, all you have to do is call the get function.
 
 ** `import requests`
+
 ** `response = requests.get("")`
 
 ### 1a. 
