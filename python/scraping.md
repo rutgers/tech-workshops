@@ -24,9 +24,10 @@ Beautiful Soup is a library dedicated to parsing html very easily. In order to u
 
 ** `from bs4 import BeautifulSoup`
 
-** `for link in soup.find_all('a'):
+```
+for link in soup.find_all('a'):
     print(link.get('href'))
-    `
+```
 
 ## Module - References
 http://blog.miguelgrinberg.com/post/easy-web-scraping-with-python
