@@ -7,7 +7,7 @@ Ravi Bhankharia, Niral Shah
 
 ## Module 0 - What is Python?
 
-Cover what python is, what it's used for
+Cover what python is, what it's used for (interpreted, dynamically typed scripting language etc)
 
 ## Module 1 - Basic Syntax
 
