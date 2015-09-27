@@ -16,7 +16,17 @@ Requests makes it easy to retrieve data from webpages, all you have to do is cal
 
 ** `response = requests.get("http://")`
 
-### 1a. 
+This stores the entire html source of the page into a file called "response.text".
+
+## Module 2 - Parse the Data
+
+Beautiful Soup is a library dedicated to parsing html very easily. In order to use it, you must import it:
+
+** `from bs4 import BeautifulSoup`
+
+** `for link in soup.find_all('a'):
+    print(link.get('href'))
+    `
 
 ## Module - References
 http://blog.miguelgrinberg.com/post/easy-web-scraping-with-python
