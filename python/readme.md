@@ -14,7 +14,7 @@ Requests makes it easy to retrieve data from webpages, all you have to do is cal
 
 ** `import requests`
 
-** `response = requests.get("")`
+** `response = requests.get("http://")`
 
 ### 1a. 
 
