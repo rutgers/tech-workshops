@@ -22,12 +22,14 @@ This stores the entire html source of the page into a file called "response.text
 
 Beautiful Soup is a library dedicated to parsing html very easily. In order to use it, you must import it:
 
-** `from bs4 import BeautifulSoup`
+`from bs4 import BeautifulSoup`
 
 ```
 for link in soup.find_all('a'):
     print(link.get('href'))
 ```
+
+This chunk of code will print out all the links on a given page
 
 ## Module - References
 http://blog.miguelgrinberg.com/post/easy-web-scraping-with-python
