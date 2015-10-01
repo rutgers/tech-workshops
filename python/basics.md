@@ -13,7 +13,7 @@ Cover what python is, what it's used for (interpreted, dynamically typed scripti
 
 ### A. Input/Output
 
-Cover how to run a python program, how to print Hello World, how to use raw_input/prompt, how to make a variable
+Cover how to run a python program, how to print Hello World, how to use raw_input/prompt/input(), how to make a variable
 
 ### B. Loops and Conditionals
 
@@ -29,7 +29,7 @@ Show how to make a function using def
 
 ## Module 2 - Small Project
 
-Have them make a guessing game.
+Have them make a guessing game. (Bonus Points for figuring out and using the random.randInt function
 
 ## Module - References
 http://www.astro.ufl.edu/~warner/prog/python.html
