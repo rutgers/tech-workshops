@@ -141,6 +141,12 @@ return 2
 
 The return statement lets you send back information, like `info = myFunction(1,2)`.
 
+## Module 2 - Guessing Game
+
+Create a guessing game where you ask the user for integers and print 'higher' or 'lower' depending on their input. Give them 5 tries to guess it properly before exiting. We'll help you out if you hit any roadblocks.
+
+
+
 ## Module - References
 
 http://www.astro.ufl.edu/~warner/prog/python.html
