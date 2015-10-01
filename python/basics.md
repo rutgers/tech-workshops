@@ -27,5 +27,9 @@ Show how to make a list and a dict (and what they are)
 
 Show how to make a function using def
 
+## Module 2 - Small Project
+
+Have them make a guessing game.
+
 ## Module - References
 http://www.astro.ufl.edu/~warner/prog/python.html
