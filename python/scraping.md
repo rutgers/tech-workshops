@@ -28,12 +28,26 @@ To start off, let's get the process the page using beautiful soup:
 
 `soup = BeauitfulSoup(response.text, 'html.parser')`
 
+Once a soup object is made, you can access tags by typing in
+
+`body = soup.body`
+
+This will return the first 'body' tag in the html document. To get to a nested tag (for example 'b') type this:
+
+`boldInBody = soup.body.b`
+
+To get all of the 'body' tags, you use the function find_all:
+
+`soup.find_all('body')`
+
+The following chunk of code will print out all the links on a given page
+
 ```
 for link in soup.find_all('a'):
     print(link.get('href'))
 ```
 
-This chunk of code will print out all the links on a given page
+
 
 ## Module - References
 http://blog.miguelgrinberg.com/post/easy-web-scraping-with-python
