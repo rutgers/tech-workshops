@@ -73,10 +73,18 @@ soup.li.next_sibling.previous_sibling
 for child in soup.ul.children:
     print(child)
 ```
-prettify, get inside of tag
+
+If you want to print out the html tree/tag info in a readable fashion, use the `prettify()` funciton:
+
+**`print(soup.a.prettify())`
+
+To get the contents of what's in the tag use `.contents`:
+
+**`print(soup.a.contents)`
+
 ## Module 3 - Mini Project
 
-This link - http://www.cnn.com/services/rss/ has a list of all of CNN's RSS Feeds. Use the things you've learned in the workshop to scrape all the titles from the World category RSS all the way down to the Living Category RSS and Print them
+This link - http://www.cnn.com/services/rss/ has a list of all of CNN's RSS Feeds. Use the things you've learned in the workshop to scrape all the titles from the World category RSS all the way down to the Living category RSS and print them
 
 Bonus points for printing the date/time as well!
 
@@ -86,7 +94,11 @@ Some Hints:
 
 *list.append() will be very helpful.
 
-*string addition ('hello' + ' ' + 'world' = 'hello world') is very helpful when iterating through all of the URL's
+*string addition ('hello' + ' ' + 'world' = 'hello world') is very helpful when iterating through all of the URL's.
+
+* `base_url = 'http://rss.cnn.com/rss/'`
+
+*Here's a helpful list of suffixes: `suffixes = ['cnn_world.rss', 'cnn_us.rss', 'money_latest.rss', 'cnn_allpolitics.rss', 'cnn_tech.rss', 'cnn_health.rss', 'cnn_showbiz.rss', 'cnn_travel.rss', 'cnn_living.rss']`
 
 ## Module - References
 http://blog.miguelgrinberg.com/post/easy-web-scraping-with-python
