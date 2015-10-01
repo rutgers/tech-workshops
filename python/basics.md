@@ -6,6 +6,13 @@
 Ravi Bhankharia, Niral Shah
 
 ## Module 0 - What is Python?
+   *Python is a high level, interpreted, interactive, and object-oriented scripting language. 
+      *_Python is interpreted_: This means Python is processed at runtime by the interpreter. 
+      Languages similar to this: PERL, PHP
+      *_Python is Object Oriented_: Python is designed to support Object-Oriented style programming, like Java.
+      *
+   
+      
 
 Cover what python is, what it's used for (interpreted, dynamically typed scripting language etc)
 
@@ -18,7 +25,8 @@ Cover how to run a python program, how to print Hello World, how to use raw_inpu
 ### B. Loops and Conditionals
 
 Cover if statements, while loops, for loops
-
+break statements. 
+identations.
 ### C. Lists/Arrays and Dicts
 
 Show how to make a list and a dict (and what they are)
