@@ -8,18 +8,28 @@ Ravi Bhankharia, Niral Shah
 ## Module 0 - What is Python?
    * Python is a high level, interpreted, interactive, and object-oriented scripting language. 
       * _Python is interpreted_: This means Python is processed at runtime by the interpreter. 
-      Languages similar to this: PERL, PHP
+      Languages similar to this: PERL, PHP. Also its dynamically typed, which means
       * _Python is Object Oriented_: Python is designed to support Object-Oriented style programming, like Java.
-      * 
-   
-      
-
-Cover what python is, what it's used for (interpreted, dynamically typed scripting language etc)
-
+      *_Python is Beginner Friendly!_: Python is an extremely versatile and widely used language. It's syntax is very beginner
+                                      friendly and will make it easier to pick various other languages like Java, C++, etc. 
 ## Module 1 - Basic Syntax
 
 ### A. Input/Output
-
+   *  Invoking the interpreter without passing a script file as a parameter brings up the following prompt −
+  
+    ``` 
+       $ python
+      Python 2.4.3 (#1, Nov 11 2010, 13:34:43)
+      [GCC 4.1.2 20080704 (Red Hat 4.1.2-48)] on linux2
+      Type "help", "copyright", "credits" or "license" for more information.
+      >>>
+    ```
+  *Script Mode:
+  * Executing a Script: 
+    *   Let us write a simple Python program in a script. Python files have extension .py. Type the following source code in a test.py file: 
+  ``` 
+   print "Hello, Python!"
+   ```
 Cover how to run a python program, how to print Hello World, how to use raw_input/prompt/input(), how to make a variable
 
 ### B. Loops and Conditionals
