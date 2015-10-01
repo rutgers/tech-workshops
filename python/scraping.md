@@ -14,9 +14,9 @@ Requests makes it easy to retrieve data from webpages, all you have to do is cal
 
 ** `import requests`
 
-** `response = requests.get("http://")`
+** `response = requests.get("https://cbracco.github.io/html5-test-page/")`
 
-This stores the entire html source of the page into a file called "response.text".
+This stores the entire html source of the html5 test page into a file called "response.text".
 
 ## Module 2 - Parse the Data
 
@@ -36,17 +36,40 @@ This will return the first 'body' tag in the html document. To get to a nested t
 
 `boldInBody = soup.body.b`
 
-To get all of the 'body' tags, you use the function find_all:
+To get the next occurrence of a tag in the document, you can use find_next(tag):
 
-`soup.find_all('body')`
+`soup.a.find_next('a')`
 
-The following chunk of code will print out all the links on a given page
+You could also find the next p tag that appears:
+
+`soup.p.find_next('p')`
+
+Note that a find_previous(tag) function also exists and works in the same manner but in reverse.
+
+To get all of the 'a' tags, you use the function find_all:
+
+`list = soup.find_all('a')`
+
+To get to an attribute of a tag (for example a class attribute inside a div tag):
+
+`soup.div.get('class')`
+
+The following chunk of code will print out all the links on a given page:
 
 ```
 for link in soup.find_all('a'):
     print(link.get('href'))
 ```
 
+The soup object's tags are organized into a tree, beautiful soup lets you navigate to a tag's enclosing tag (parent), any tag that shares the same parent (sibling) and any tag that is enclosed by it. Try out the following commands:
+
+```
+soup.title.parent
+soup.li.next_sibling.next_sibling
+soup.li.next_sibling.previous_sibling
+for child in soup.ul.children:
+    print(child)
+```
 
 
 ## Module - References
