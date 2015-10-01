@@ -1,9 +1,5 @@
 
-# Rutgers IEEE Student Branch - Python Basics Workshop
-
-## Workshop Leaders
-
-Ravi Bhankharia, Niral Shah
+# Rutgers IEEE Student Branch - Python OS X Setup Workshop
 
 ## Module 0 - Initial Download and Setup
 
