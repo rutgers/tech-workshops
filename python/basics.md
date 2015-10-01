@@ -27,9 +27,9 @@ Show how to make a list and a dict (and what they are)
 
 Show how to make a function using def
 
-## Module 2 - Small Project
+## Module 2 - Guessing Game
 
-Have them make a guessing game. (Bonus Points for figuring out and using the random.randInt function
+Have them make a guessing game. (Bonus Points for figuring out and using the random.randInt function) i'll post a functioning guess program after.)
 
 ## Module - References
 http://www.astro.ufl.edu/~warner/prog/python.html
