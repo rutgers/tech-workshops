@@ -22,37 +22,37 @@ This stores the entire html source of the html5 test page into a file called "re
 
 Beautiful Soup is a library dedicated to parsing html very easily. In order to use it, you must import it:
 
-`from bs4 import BeautifulSoup`
+**`from bs4 import BeautifulSoup`
 
 To start off, let's get the process the page using beautiful soup:
 
-`soup = BeauitfulSoup(response.text, 'html.parser')`
+**`soup = BeauitfulSoup(response.text, 'html.parser')`
 
 Once a soup object is made, you can access tags by typing in
 
-`body = soup.body`
+**`body = soup.body`
 
 This will return the first 'body' tag in the html document. To get to a nested tag (for example 'b') type this:
 
-`boldInBody = soup.body.b`
+**`boldInBody = soup.body.b`
 
 To get the next occurrence of a tag in the document, you can use find_next(tag):
 
-`soup.a.find_next('a')`
+**`soup.a.find_next('a')`
 
 You could also find the next p tag that appears:
 
-`soup.p.find_next('p')`
+**`soup.p.find_next('p')`
 
 Note that a find_previous(tag) function also exists and works in the same manner but in reverse.
 
 To get all of the 'a' tags, you use the function find_all:
 
-`list = soup.find_all('a')`
+**`list = soup.find_all('a')`
 
 To get to an attribute of a tag (for example a class attribute inside a div tag):
 
-`soup.div.get('class')`
+**`soup.div.get('class')`
 
 In fact, all attributes of a tag are stored in a python dictionary that can be accessed with `soup.div.attrs`. As a consequence of that `soup.div['class']` is equivalent to `soup.div.get('class')`
 
