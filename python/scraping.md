@@ -73,10 +73,20 @@ soup.li.next_sibling.previous_sibling
 for child in soup.ul.children:
     print(child)
 ```
-
+prettify, get inside of tag
 ## Module 3 - Mini Project
 
-This Link
+This link - http://www.cnn.com/services/rss/ has a list of all of CNN's RSS Feeds. Use the things you've learned in the workshop to scrape all the titles from the World category RSS all the way down to the Living Category RSS and Print them
+
+Bonus points for printing the date/time as well!
+
+Some Hints:
+
+*Check out the html source of those pages to figure out which tag holds the story titles.
+
+*list.append() will be very helpful.
+
+*string addition ('hello' + ' ' + 'world' = 'hello world') is very helpful when iterating through all of the URL's
 
 ## Module - References
 http://blog.miguelgrinberg.com/post/easy-web-scraping-with-python
