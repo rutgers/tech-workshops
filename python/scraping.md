@@ -54,7 +54,7 @@ To get to an attribute of a tag (for example a class attribute inside a div tag)
 
 **`soup.div.get('class')`
 
-In fact, all attributes of a tag are stored in a python dictionary that can be accessed with `soup.div.attrs`. As a consequence of that `soup.div['class']` is equivalent to `soup.div.get('class')`
+In fact, all attributes of a tag are stored in a python dictionary that can be accessed with `soup.div.attrs`. As a consequence of that `soup.div['class']` is equivalent to `soup.div.get('class')`. If there are more than one attribute in a tag, the value returned by getting that key is actually a list. Note that all of this is mutable, so if you wish to change an attribute you can.
 
 The following chunk of code will print out all the links on a given page:
 
