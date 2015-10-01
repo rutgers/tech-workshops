@@ -16,7 +16,7 @@ Requests makes it easy to retrieve data from webpages, all you have to do is cal
 
 ** `response = requests.get("https://cbracco.github.io/html5-test-page/")`
 
-This stores the entire html source of the html5 test page into a file called "response.text".
+This stores the entire html source of the html5 test page into the response variable. If you try to print the variable, you'll get an http header, in order to display access the actual string, you can use response.text.
 
 ## Module 2 - Parse the Data
 
@@ -74,6 +74,9 @@ for child in soup.ul.children:
     print(child)
 ```
 
+## Module 3 - Mini Project
+
+This Link
 
 ## Module - References
 http://blog.miguelgrinberg.com/post/easy-web-scraping-with-python
