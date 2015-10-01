@@ -2,7 +2,7 @@
 
 ## Workshop Leaders
 
-Ravi Bhankharia, Niral Shah
+Ravi Bhankharia
 
 ## Module 0 - Setup
 
