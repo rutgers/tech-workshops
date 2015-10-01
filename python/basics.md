@@ -6,11 +6,11 @@
 Ravi Bhankharia, Niral Shah
 
 ## Module 0 - What is Python?
-   *Python is a high level, interpreted, interactive, and object-oriented scripting language. 
-      *_Python is interpreted_: This means Python is processed at runtime by the interpreter. 
+   * Python is a high level, interpreted, interactive, and object-oriented scripting language. 
+      * _Python is interpreted_: This means Python is processed at runtime by the interpreter. 
       Languages similar to this: PERL, PHP
-      *_Python is Object Oriented_: Python is designed to support Object-Oriented style programming, like Java.
-      *
+      * _Python is Object Oriented_: Python is designed to support Object-Oriented style programming, like Java.
+      * 
    
       
 
