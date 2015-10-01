@@ -24,6 +24,10 @@ Beautiful Soup is a library dedicated to parsing html very easily. In order to u
 
 `from bs4 import BeautifulSoup`
 
+To start off, let's get the process the page using beautiful soup:
+
+`soup = BeauitfulSoup(response.txt, 'html.parser')`
+
 ```
 for link in soup.find_all('a'):
     print(link.get('href'))
