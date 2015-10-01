@@ -105,15 +105,27 @@ The continue statement skips the rest of the loop and starts it over. The `isdig
 
 ### C. Lists/Arrays and Dicts
 
-Show how to make a list and a dict (and what they are)
-
 Lists are Python's arrays, and come with a handful of useful built-in functions to manipulate them. Here's what a list looks like:
 
 ```python
 mylist = [2, "string", 3.3]
 ```
 
-They can contain different types as well.
+They can contain different types as well. Let's talk about slice notation - lists can be cut into smaller lists by using brackets after the list. Using the given list above, typing in
+
+```python
+print mylist[1:2]
+```
+
+prints from the second element (python lists start from index 0) to the third element. If you don't include a number after the colon (`mylist[1:]`, it prints from the second element to the end of the list. `mylist[:1]` will print everything from the beginning of the list to the second element. Strings in Python can be manipulated the same way.
+
+Dictionaries in Python are similar to hash tables if any of you have taken Data Structures. It maps a bunch of 'keys' to a bunch of 'values'. Keys are unique, but values can be anything. You can get the value by feeding in a key to the dict in the following manner:
+
+```python
+mydict = {'hello' : 1, 'world' : 2}
+mydict['hello'] # returns 1
+mydict['world'] # returns 2
+```
 
 ### D. Functions
 
