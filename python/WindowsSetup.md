@@ -32,7 +32,9 @@ After installing virtualenv, navigate to the directory where you want to create 
 
 where env is the name of your virtual environment. After running this command you'll see a new directory pop up with the name of your environment. To work in your virtual environment use the following command:
 
-** `source env/Scripts/activate`
+** `cd env/Scripts`
+
+** `activate`
 
 This will make it so that any time you type `pip install library-name` it will only be installed in your environment. To get out of the environment, merely type `deactivate`.
 
