@@ -84,42 +84,13 @@ To get the contents of what's in the tag use `.contents`:
 
 ## Module 3 - Mini Project
 
-This link - http://www.cnn.com/services/rss/ has a list of all of CNN's RSS Feeds. Use the things you've learned in the workshop to scrape all the titles from the World category RSS all the way down to the Living category RSS and print them
+This link - http://www.cnn.com/services/rss/ has a list of all of CNN's RSS Feeds. Use the things you've learned in the workshop to scrape all the titles from the World category RSS all the way down to the Living category RSS and print them to the console.
 
 Bonus points for printing the date/time as well!
 
-If you're really stuck scroll below for some hints
+Bonus challenge: Do it in 2 lines of code without semicolons!
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Hints:
-
-*Check out the html source of those pages to figure out which tag holds the story titles.
-
-*string addition ('hello' + ' ' + 'world' = 'hello world') is very helpful when iterating through all of the URL's.
-
-* `base_url = 'http://rss.cnn.com/rss/'`
-
-*Here's a helpful list of suffixes: `suffixes = ['cnn_world.rss', 'cnn_us.rss', 'money_latest.rss', 'cnn_allpolitics.rss', 'cnn_tech.rss', 'cnn_health.rss', 'cnn_showbiz.rss', 'cnn_travel.rss', 'cnn_living.rss']`
+If you're really stuck I'll release some hints.
 
 ## Module - References
 http://blog.miguelgrinberg.com/post/easy-web-scraping-with-python
