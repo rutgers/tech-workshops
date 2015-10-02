@@ -89,7 +89,7 @@ while(True):
         guess = int(guess)
     else:
         print("Nope")
-    continue
+        continue
     
     if guess == 4:
         print("Correct!")
