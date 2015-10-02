@@ -143,14 +143,7 @@ The return statement lets you send back information, like `info = myFunction(1,2
 
 ## Module 2 - Guessing Game
 
-Create a guessing game where you ask the user for integers and print 'higher' or 'lower' depending on their input. Give them 5 tries to guess it properly before exiting. We'll help you out if you hit any roadblocks. You should definitely check out the randint function from the random library that's included with Python.
-
-Hint: You can make a string into an integer using the following code block:
-
-```python
-inputString = input("enter an int here")
-integerInput = int(inputString)
-```
+Create a better guessing game where you generate a random integer and ask the user for integers and print 'higher' or 'lower' depending on their input. Give them 5 tries to guess it properly before exiting. We'll help you out if you hit any roadblocks. You should definitely check out the randint function from the random library that's included with Python.
 
 ## Module - References
 
