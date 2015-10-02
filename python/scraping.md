@@ -58,14 +58,14 @@ In fact, all attributes of a tag are stored in a python dictionary that can be a
 
 The following chunk of code will print out all the links on a given page:
 
-```
+```python
 for link in soup.find_all('a'):
     print(link.get('href'))
 ```
 
 The soup object's tags are organized into a tree, beautiful soup lets you navigate to a tag's enclosing tag (parent), any tag that shares the same parent (sibling) and any tag that is enclosed by it. Try out the following commands:
 
-```
+```python
 soup.title.parent
 soup.li.next_sibling.next_sibling
 soup.li.next_sibling.previous_sibling
