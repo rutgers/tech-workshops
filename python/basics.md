@@ -59,9 +59,9 @@ print("Here's a question for you: ")
 guess = input("How many lines would it take to write this program in Java? ")
 
 while(guess.strip().lower() != "too many"):
-print("Not quite...")
-guess = input("Try again! ")
-print("You got it!")
+    print("Not quite...")
+    guess = input("Try again! ")
+    print("You got it!")
 ```
 
 Some important things to notice here are the colon after the while loop condition, and the indented lines following. The indentations represent the statements within the while loop block, and this helps force more readable code. And though tabs are preferable, any amount of whitespace will do, even a single space (though that would make your code much more difficult to read).
@@ -72,7 +72,7 @@ Here is a quick for loop example:
 
 ```python
 for i in range(0,10):
-print(i)
+    print(i)
 ```
 
 For loops look a little different, because they iterate through a list directly. The range method creates a list (which we will cover soon) of the numbers 0 to 9. But this can work for any list, making for loops very useful.
@@ -84,20 +84,20 @@ For loops look a little different, because they iterate through a list directly.
 
 print("I'm thinking of a number from 1 to 10, can you guess it?")
 while(True):
-guess = input("Your Guess: ")
-if guess.isdigit():
-guess = int(guess)
-else:
-print("Nope")
-continue
+    guess = input("Your Guess: ")
+    if guess.isdigit():
+        guess = int(guess)
+    else:
+        print("Nope")
+    continue
     
-if guess == 4:
-print("Correct!")
-break
-elif guess > 4:
-print("Too high.")
-else:
-print("Too low.")
+    if guess == 4:
+        print("Correct!")
+        break
+    elif guess > 4:
+        print("Too high.")
+    else:
+        print("Too low.")
 ```
 
 The continue statement skips the rest of the loop and starts it over. The `isdigit` function checks if guess is an int, and the `int` function converts guess to an integer.
@@ -135,8 +135,8 @@ Functions in python use the def keyword.
 
 ```python
 def myFunction(myArgument, anotherArg):
-print("in myFunction")
-return 2
+    print("in myFunction")
+    return 2
 ```
 
 The return statement lets you send back information, like `info = myFunction(1,2)`.
