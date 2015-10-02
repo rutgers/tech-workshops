@@ -26,7 +26,7 @@ Beautiful Soup is a library dedicated to parsing html very easily. In order to u
 
 To start off, let's get the process the page using beautiful soup:
 
-* `soup = BeauitfulSoup(response.text, 'html.parser')`
+* `soup = BeautifulSoup(response.text, 'html.parser')`
 
 Once a soup object is made, you can access tags by typing in
 
