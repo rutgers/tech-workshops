@@ -3,7 +3,7 @@
 
 ## Workshop Leaders
 
-Ravi Bhankharia, Niral Shah
+Ravi Bhankharia, Matthew Chan, Niral Shah
 
 ## Module 0 - What is Python?
    * Python is a high level, interpreted, interactive, and object-oriented scripting language. 
