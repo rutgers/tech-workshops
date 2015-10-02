@@ -30,6 +30,7 @@ Ravi Bhankharia, Niral Shah
   ``` 
    print "Hello, Python!"
    ```
+   
 Cover how to run a python program, how to print Hello World, how to use raw_input/prompt/input(), how to make a variable
 
 ### B. Loops and Conditionals
