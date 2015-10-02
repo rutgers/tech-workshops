@@ -44,7 +44,7 @@ print("Nice to meet ya!")
 
 Notice how the input function (in python 3) was used. It takes whatever the user inputs and converts it to a string. This is good because `print` can only put together strings.
 
-How do you run/wrote these programs? If you are on a Mac or Linux, you can go to the terminal, change your directory to where your program is stored, and type in the command `python your_program.py`. You can write these programs in most text editors, just remember to save it as a `.py` extension!
+How do you run/write these programs? If you are on a Mac or Linux, you can go to the terminal, change your directory to where your program is stored, and type in the command `python your_program.py`. You can write these programs in most text editors, just remember to save it as a `.py` extension!
 
 On Windows, you can write a program in IDLE by going to File, New File. From that editor you can run your program by going to Run, Run Module.
 
