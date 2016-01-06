@@ -4,20 +4,25 @@
 
 Ravi Bhankharia
 
-## Module 0 - What are HTML and CSS?
+## Module 0 - What are HTML, CSS, Javascript and Bootstrap?
 
 ** HTML ** stands for HyperText Markup Language - it's the syntax that defines the layout of all webpages. It includes a webpage's text and images.
 
-** CSS ** stands for Cascading Style Sheets - it's
+** CSS ** stands for Cascading Style Sheets - it's what defines the color and size of information on the webpage.
 
+** Javascript ** is a programming language used in webpages that is run in your browser.
 
-## Module 1 - 
+Most popular sites use all three of these languages to create responsive webpages.
+
+** Bootstrap ** is a CSS Framework used to create beautiful responsive pages quickly. In terms of 
+
+## Module 1 - Getting Started
 
 ### A. 
  
-### B.
+### B. 
 
-### C.
+### C. 
 
 
 ```html
