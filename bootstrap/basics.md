@@ -16,7 +16,7 @@ Most popular sites use all three of these languages to create responsive webpage
 
 * ** Bootstrap ** is a CSS Framework used to create beautiful responsive pages quickly. In terms of 
 
-## Module 1 - Getting Started
+## Module 1 - A Basic Template
 
 ### A. 
  
@@ -30,7 +30,7 @@ code
 ```
 
 
-## Module 2 -
+## Module 2 - The Grid System
 
 ## Module - References
 
