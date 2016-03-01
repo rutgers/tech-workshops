@@ -148,11 +148,39 @@ First, try adding a normal table to your html page and check out how it looks.
 Then, try adding a `class="table"` attribute to your table tag and see how it changes.
 
 Test out the following attribute values and see which you like the best:
-```
+
+```html
 class="table table-striped"
 class="table table-bordered"
 class="table table-hover"
 class="table table-condensed"
+```
+
+In addition, try adding "active", "success", "info" and "danger" to a row's class attribute as well and see how the colors change!
+
+### Buttons
+
+```html
+<!-- Standard button -->
+<button type="button" class="btn btn-default">Default</button>
+
+<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+<button type="button" class="btn btn-primary">Primary</button>
+
+<!-- Indicates a successful or positive action -->
+<button type="button" class="btn btn-success">Success</button>
+
+<!-- Contextual button for informational alert messages -->
+<button type="button" class="btn btn-info">Info</button>
+
+<!-- Indicates caution should be taken with this action -->
+<button type="button" class="btn btn-warning">Warning</button>
+
+<!-- Indicates a dangerous or potentially negative action -->
+<button type="button" class="btn btn-danger">Danger</button>
+
+<!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+<button type="button" class="btn btn-link">Link</button>
 ```
 
 ## Module - References
