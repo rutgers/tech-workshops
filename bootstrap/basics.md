@@ -16,9 +16,17 @@ Most popular sites use all three of these languages to create responsive webpage
 
 * ** Bootstrap ** is a CSS Framework used to create beautiful responsive pages quickly. It's easy to use, compatible with all modern browsers, and it's mobile first.
 
-Building a bootstrap website normally starts with 
+Building a bootstrap website normally starts with a template and modifying the HTML source
 
-## Module 1 - A Basic Template
+## Module 1 - HTML
+
+HTML is built around tags - all text on a page starts and ends in a tag. For example:
+
+```html
+<body> This is a body tag </body>
+```
+
+## Module 2 - A Basic Template
 
 ### A. 
  
@@ -32,7 +40,7 @@ code
 ```
 
 
-## Module 2 - The Grid System
+## Module 3 - The Grid System
 
 ## Module - References
 
