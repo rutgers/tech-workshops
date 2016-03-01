@@ -137,5 +137,26 @@ If you made two medium columns of width 6 (col-md-6), if the user is using a lap
 </div>
 ```
 
+## Module 5 - Tables, Buttons and Images
+
+Bootstrap's tables, buttons and images are pretty much the same as their normal HTML counterparts but look much better and have several more customization options.
+
+### Tables
+
+First, try adding a normal table to your html page and check out how it looks.
+
+Then, try adding a `class="table"` attribute to your table tag and see how it changes.
+
+Test out the following attribute values and see which you like the best:
+```
+class="table table-striped"
+class="table table-bordered"
+class="table table-hover"
+class="table table-condensed"
+```
+
+## Module - References
+https://getbootstrap.com/css/#overview
+
 ## Module - References
 
