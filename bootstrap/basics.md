@@ -2,7 +2,7 @@
 
 ## Workshop Leaders
 
-Ravi Bhankharia
+Ravi Bhankharia, Niral Shah
 
 ## Module 0 - What are HTML, CSS, Javascript and Bootstrap?
 
@@ -55,11 +55,47 @@ First, download the template named carousel.html that can be found in this folde
 
 ## Module 3 - The Grid System
 
-In order to actually add a new section, we're going to have to either create a new page or add a `<div>` tag at the bottom of the page above the footer section. Let's try adding a new div tag with the class attribute set to container:
+In order to actually add a new section, we're going to have to either create a new page or add a `<div>` tag at the bottom of the page above the footer section. Let's try adding a new div tag with the class attribute set to `container-fluid` along with another 2 more nested div tags with the class attribute set to `row` and `col`:
 
 ```html
-<div class="container">
+<div class="container-fluid">
  <div class="row">
+  <div class="col">
+  </div>
+ </div>
+</div>
+```
+
+Each container in Bootstrap's grid system includes any number of rows, and any number of columns nested in those rows. In order to enable Bootstrap's responsive grid system, we need to specify the width of each column. All columns' widths must sum up to 12. This means that you can have 4 columns of width 3 or 2 columns of width 6 and etc. In addition to specifying the width of each column, you must specify the user's screen size. 
+
+For example - 
+* xs stands for extra small so it corresponds to a mobile phone.
+* s stands for small so it corresponds to a small tablet.
+* m stands for medium so it corresponds to a laptop.
+* l stands for large so it corresponds to a standard desktop.
+* xl stands for extra large so it corresponds to a wide desktop.
+
+So on a medium screen, the user will see one grid layout, but on a mobile phone they will see another. 
+
+If you don't specify all the widths for each screen size, each column will appear one after the other vertically if you go below the specified screen size.
+
+If you made two medium columns of width 6 (col-md-6), if the user is using a laptop or a desktop, they will see 2 columns next to each other. However, if you're viewing it on a tablet or phone, you will see 1 column and then will have to scroll down to see the next one. Test the grid system out on your file and try changing the size of your browser window.
+
+```html
+<div class="container-fluid">
+ <div class="row">
+  <div class="col-md-3 col-s-4 col-xs-6">
+  1
+  </div>
+  <div class="col-md-3 col-s-4 col-xs-6">
+  2
+  </div>
+  <div class="col-md-3 col-s-4 col-xs-6">
+  3
+  </div>
+  <div class="col-md-3 col-s-4 col-xs-6">
+  4
+  </div>
  </div>
 </div>
 ```
