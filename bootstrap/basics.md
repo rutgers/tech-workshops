@@ -35,7 +35,7 @@ HTML is built around tags - all text on a page starts and ends in a tag. For exa
  ``` html
  <html> ,<body>,<h#>, <div> , <button>,<img>, <table>
 ```
-# "<html>" tag: 
+###  HTML tag: 
 2. As you might notice above every "tag" comes in a pair with an opening and closing tag. Every html document is started with the <html> opening tag so that the broswer knows that everything between <html> and </html> is to be interpreted as HTML code. Without this tag, none of the other tags will get formatted properly :
 instead the webpage would simply display all the tags:
 ```html
@@ -45,7 +45,7 @@ instead the webpage would simply display all the tags:
  .... 
  //Also remember to close every tag!
 ```
-# "<body>" tag: 
+#  Body tag: 
 3. At the foundation of every webpage is just body text. Body Text is defined in this way: 
 ``` html
 <!DOCTYPE html>
@@ -69,6 +69,8 @@ instead the webpage would simply display all the tags:
 
 <head>
 <title> Welcome to IEEE's Website! </title> 
+// In HTML there are 6 primary headers, to really understand this copy into notepad and save as header.html
+
 </head>
 <body>
 <h1> This is heading 1 </h1>
