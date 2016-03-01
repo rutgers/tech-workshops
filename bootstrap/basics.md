@@ -33,9 +33,9 @@ HTML is built around tags - all text on a page starts and ends in a tag. For exa
 
 1. As mentioned, HTML is built all around what we call "tags". Tags basically tell the broswer how to interpret certain blocks of code. By its nature, HTML is a hiearchical language where the placement of the tag helps define the webpage we are creating. There are are four main tags that we will cover: 
  ``` html
- <html> ,<h#>, <body>, <div> 
+ <html> ,<body>,<h#>, <div> , <button>,<img>, <table>
 ```
-
+# "<html>" tag: 
 2. As you might notice above every "tag" comes in a pair with an opening and closing tag. Every html document is started with the <html> opening tag so that the broswer knows that everything between <html> and </html> is to be interpreted as HTML code. Without this tag, none of the other tags will get formatted properly :
 instead the webpage would simply display all the tags:
 ```html
@@ -45,8 +45,42 @@ instead the webpage would simply display all the tags:
  .... 
  //Also remember to close every tag!
 ```
+# "<body>" tag: 
+3. At the foundation of every webpage is just body text. Body Text is defined in this way: 
+``` html
+<!DOCTYPE html>
+<html>
+<body>
+ Hello World! 
+ </body> 
+ </html> 
 
+//Tip: See this for yourself! Open up notepad on your computer, copy and paste this and save the file as Test.html 
+```
 
+# Header tags:
+4. When you create a document often times you want to have header's for various sections and define the title for the webpage. You can accomplish this with the title and header tags. 
+```html 
+
+<!DOCTYPE html>
+<html>
+//Title is what appears in title bar of your web broswer  
+//The <head> tag will also be a place to define the webpage's style (more on this later)
+
+<head>
+<title> Welcome to IEEE's Website! </title> 
+</head>
+<body>
+<h1> This is heading 1 </h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+<h4>This is heading 4</h4>
+<h5>This is heading 5</h5>
+<h6>This is heading 6</h6> 
+</body>
+
+</html>
+```
 
 
 ## Module 3 - A Basic Template
@@ -101,13 +135,5 @@ If you made two medium columns of width 6 (col-md-6), if the user is using a lap
 </div>
 ```
 
-## Module 5 - Tables, Buttons and Images
-
-Bootstrap's tables, buttons and images are pretty much the same as their normal HTML counterparts but look much better and have more options.
-
-### Tables
-
-
 ## Module - References
-https://getbootstrap.com/css/#overview
 
