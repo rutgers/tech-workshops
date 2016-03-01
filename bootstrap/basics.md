@@ -101,5 +101,13 @@ If you made two medium columns of width 6 (col-md-6), if the user is using a lap
 </div>
 ```
 
+## Module 5 - Tables, Buttons and Images
+
+Bootstrap's tables, buttons and images are pretty much the same as their normal HTML counterparts but look much better and have more options.
+
+### Tables
+
+
 ## Module - References
+https://getbootstrap.com/css/#overview
 
