@@ -27,9 +27,9 @@ HTML is built around tags - all text on a page starts and ends in a tag. For exa
 <body> This is a body tag </body>
 </html>
 ```
-1. The first line at the top <!DOCTYPE html>, defines the document type. Letting the browswer know which flavor of html you are using (by default it's HTML 5, the latest version). Without this declaration you will get unexpected behavior from the browser. 
+1. The first line at the top <!DOCTYPE html>, defines the document type. Letting the broswer know which flavor of html you are using (by default it's HTML 5, the latest version). Without this declaration you will get unexpected behavior from the browser. 
 
-## Module 2 - It'a <Tag> </Tag> World! 
+## Module 2 - It'a Tag  /Tag World! 
 
 1. As mentioned, HTML is built all around what we call "tags". Tags basically tell the browswer how to interpret certain blocks of code. By its nature, HTML is a hiearchical language where the placement of the tag helps defien the webpage we are creating. There are are four main tags that we will cover: <html> ,<h#>, <body>, <div> 
 
