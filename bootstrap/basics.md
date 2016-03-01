@@ -49,12 +49,12 @@ instead the webpage would simply display all the tags:
 
 
 
-## Module 2 - A Basic Template
+## Module 3 - A Basic Template
 
 First, download the template named carousel.html that can be found in this folder. Then, try opening the file with your browser of choice. This template features a carousel that automatically switches between multiple photos in addition to a responsive navbar. Try playing around with changing the `src` attribute of the various `img` tags to see how it changes the site.
 
 
-## Module 3 - The Grid System
+## Module 4 - The Grid System
 
 In order to actually add a new section, we're going to have to either create a new page or add a `<div>` tag at the bottom of the page above the footer section. Let's try adding a new div tag with the class attribute set to `container-fluid` along with another 2 more nested div tags with the class attribute set to `row` and `col`:
 
