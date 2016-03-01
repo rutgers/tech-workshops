@@ -31,7 +31,10 @@ HTML is built around tags - all text on a page starts and ends in a tag. For exa
 
 ## Module 2 - It'a Tag  /Tag World! 
 
-1. As mentioned, HTML is built all around what we call "tags". Tags basically tell the browswer how to interpret certain blocks of code. By its nature, HTML is a hiearchical language where the placement of the tag helps defien the webpage we are creating. There are are four main tags that we will cover: <html> ,<h#>, <body>, <div> 
+1. As mentioned, HTML is built all around what we call "tags". Tags basically tell the browswer how to interpret certain blocks of code. By its nature, HTML is a hiearchical language where the placement of the tag helps defien the webpage we are creating. There are are four main tags that we will cover: 
+ ``` html
+ <html> ,<h#>, <body>, <div> 
+```
 
 2. As you might notice above every "tag" comes in a pair with an opening and closing tag. Every html document is started with the <html> opening tag so that the broswer knows that everything between <html> and </html> is to be interpreted as HTML code. Without this tag, none of the other tags will get formatted properly :
 instead the webpage would simply display all the tags:
