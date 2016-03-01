@@ -6,15 +6,15 @@ Ravi Bhankharia, Niral Shah
 
 ## Module 0 - What are HTML, CSS, Javascript and Bootstrap?
 
-* HTML stands for HyperText Markup Language - it's the syntax that defines the layout of all webpages. It includes a webpage's text and images.
+* ** HTML ** stands for HyperText Markup Language - it's the syntax that defines the layout of all webpages. It includes a webpage's text and images.
 
-* CSS stands for Cascading Style Sheets - it's what defines the color and size of information on the webpage.
+* ** CSS ** stands for Cascading Style Sheets - it's what defines the color and size of information on the webpage.
 
-* Javascript is a programming language used in webpages that is run in your browser.
+* ** Javascript ** is a programming language used in webpages that is run in your browser.
 
 Most popular sites use all three of these languages to create responsive webpages.
 
-* Bootstrap is a CSS Framework used to create beautiful responsive pages quickly. It's easy to use, compatible with all modern browsers, and it's mobile first.
+* ** Bootstrap ** is a CSS Framework used to create beautiful responsive pages quickly. It's easy to use, compatible with all modern browsers, and it's mobile first.
 
 Building a bootstrap website normally starts with a template and modifying the HTML source to match what you want
 
@@ -31,7 +31,7 @@ HTML is built around tags - all text on a page starts and ends in a tag. For exa
 
 ## Module 2 - It'a Tag  /Tag World! 
 
-1. As mentioned, HTML is built all around what we call "tags". Tags basically tell the browswer how to interpret certain blocks of code. By its nature, HTML is a hiearchical language where the placement of the tag helps defien the webpage we are creating. There are are four main tags that we will cover: 
+1. As mentioned, HTML is built all around what we call "tags". Tags basically tell the broswer how to interpret certain blocks of code. By its nature, HTML is a hiearchical language where the placement of the tag helps define the webpage we are creating. There are are four main tags that we will cover: 
  ``` html
  <html> ,<h#>, <body>, <div> 
 ```
@@ -43,6 +43,7 @@ instead the webpage would simply display all the tags:
  <title>Heading Example <title> 
  </head> 
  .... 
+ //Also remember to close every tag!
 ```
 
 
