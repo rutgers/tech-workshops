@@ -134,8 +134,8 @@ instead the webpage would simply display all the tags:
 There are many attributes that you can use to style an image. Check out this site for reference:
 http://www.w3schools.com/tags/tag_img.asp 
 
-## Buttons:
-The button tag defines a clickable button.Inside a button element you can put content like text or images. You can also define various different events that occur when the button is clicked. In this case we will open up a pop up dialog window or an alert.
+## Buttons
+8.The button tag defines a clickable button.Inside a button element you can put content like text or images. You can also define various different events that occur when the button is clicked. In this case we will open up a pop up dialog window or an alert.
 
 ``` html
 <!DOCTYPE html>
@@ -150,7 +150,40 @@ The button tag defines a clickable button.Inside a button element you can put co
 ```
 
 ## Tables
-8. 
+9. Finally one of the most important html elements is the table element. Let's take a look at an example: 
+``` html  
+<!DOCTYPE html>
+<html>
+<body>
+
+<table border="1" style="width:100%">
+  <tr>
+    <td>Rutgers</td>
+    <td>Princeton</td>		
+    <td>Harvard</td>
+  </tr>
+  <tr>
+    <td>HackRU</td>
+    <td>HackPton</td>		
+    <td>HackHarvard</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>2</td>		
+    <td>3</td>
+  </tr>
+</table>
+
+</body>
+</html>
+``` 
+The Example Decomposed: 
+ - \<table> tag defines the beginning of the table, as with any html tag the style can be defined there. You must define a border otherwise by default the table will not have a border. 
+ - \<tr> defines a table row
+ - \<td> defines table data
+ - \<th> a table row can also be divided into table headings 
+ - 
+## CSS - Quick Summary: 
 
 ## Module 3 - A Basic Template
 
