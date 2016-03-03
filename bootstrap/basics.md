@@ -186,6 +186,7 @@ The Example Decomposed:
 
 ##  CSS - Quick Summary: 
 
+
 ## Module 3 - A Basic Template
 
 First, download the template named carousel.html that can be found in this folder. Then, try opening the file with your browser of choice. This template features a carousel that automatically switches between multiple photos in addition to a responsive navbar. Try playing around with changing the `src` attribute of the various `img` tags to see how it changes the site.
@@ -195,7 +196,7 @@ First, download the template named carousel.html that can be found in this folde
 
 In order to actually add a new section, we're going to have to either create a new page or add a `<div>` tag at the bottom of the page above the footer section. Let's try adding a new div tag with the class attribute set to `container-fluid` along with another 2 more nested div tags with the class attribute set to `row` and `col`:
 
-``` html
+```html
 <div class="container-fluid">
  <div class="row">
   <div class="col">
@@ -238,5 +239,53 @@ If you made two medium columns of width 6 (col-md-6), if the user is using a lap
 </div>
 ```
 
+## Module 5 - Tables, Buttons and Images
+
+Bootstrap's tables, buttons and images are pretty much the same as their normal HTML counterparts but look much better and have several more customization options.
+
+### Tables
+
+First, try adding a normal table to your html page and check out how it looks.
+
+Then, try adding a `class="table"` attribute to your table tag and see how it changes.
+
+Test out the following attribute values and see which you like the best:
+
+```html
+class="table table-striped"
+class="table table-bordered"
+class="table table-hover"
+class="table table-condensed"
+```
+
+In addition, try adding "active", "success", "info" and "danger" to a row's class attribute as well and see how the colors change!
+
+### Buttons
+
+```html
+<!-- Standard button -->
+<button type="button" class="btn btn-default">Default</button>
+
+<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+<button type="button" class="btn btn-primary">Primary</button>
+
+<!-- Indicates a successful or positive action -->
+<button type="button" class="btn btn-success">Success</button>
+
+<!-- Contextual button for informational alert messages -->
+<button type="button" class="btn btn-info">Info</button>
+
+<!-- Indicates caution should be taken with this action -->
+<button type="button" class="btn btn-warning">Warning</button>
+
+<!-- Indicates a dangerous or potentially negative action -->
+<button type="button" class="btn btn-danger">Danger</button>
+
+<!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+<button type="button" class="btn btn-link">Link</button>
+```
+
 ## Module - References
+https://getbootstrap.com/css/#overview
+
 http://www.w3schools.com/
