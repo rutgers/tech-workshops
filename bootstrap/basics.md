@@ -189,7 +189,7 @@ The Example Decomposed:
 
 ## Module 3 - A Basic Template and Testing Your Files
 
-First, download the template named carousel.html that can be found in this folder. Then, try opening the file with your browser of choice. Whenever you make a change, be sure to save your html file and refresh in your browser! This template features a carousel that automatically switches between multiple photos in addition to a responsive navbar. Try playing around with changing the `src` attribute of the various `img` tags to see how it changes the site.
+First, download either the template named carousel.html or template2.html that can be found in this folder. Then, try opening the file with your browser of choice. Whenever you make a change, be sure to save your html file and refresh in your browser! The first template features a carousel that automatically switches between multiple photos in addition to a responsive navbar. This is better suited for a club or organization website. Try playing around with changing the `src` attribute of the various `img` tags to see how it changes the site. The second template is a basic website featuring a jumbotron that may be better suited for a person website. 
 
 
 ## Module 4 - The Grid System
