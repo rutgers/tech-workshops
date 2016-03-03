@@ -4,6 +4,10 @@
 
 Ravi Bhankharia, Niral Shah
 
+## Brief Overview & General Workshop Format
+
+The first half of this workshop will involve us teaching all of you how to use HTML, CSS and Bootstrap to build a website. Once we finish showing you all the features, we'll let you loose and have you build your own website from the template we've provided. From then on, we'll be here to help you with any issues or obstacles you may come across!
+
 ## Module 0 - What are HTML, CSS, Javascript and Bootstrap?
 
 * HTML stands for HyperText Markup Language - it's the syntax that defines the layout of all webpages. It includes a webpage's text and images.
