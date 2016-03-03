@@ -182,8 +182,9 @@ The Example Decomposed:
  - \<tr> defines a table row
  - \<td> defines table data
  - \<th> a table row can also be divided into table headings 
- - 
-## CSS - Quick Summary: 
+  
+
+##  CSS - Quick Summary: 
 
 ## Module 3 - A Basic Template
 
