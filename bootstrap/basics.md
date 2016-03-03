@@ -300,7 +300,7 @@ You can also change the shape of an image in bootstrap by linking an image and s
 
 ## Module 6 - Next Steps
 
-Now that we've taught you the basics and given you a glimpse at Bootstrap's toolbox, let's take our template and attempt to make your own personal website!
+Now that we've taught you the basics and given you a glimpse at Bootstrap's toolbox, let's take one of our 3 templates and attempt to make your own personal website!
 
 
 ## Module - References
