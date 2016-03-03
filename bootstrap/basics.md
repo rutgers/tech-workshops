@@ -224,8 +224,39 @@ Links to other pages in your website follow the same thing as hyperlink however 
 </body>
 </html>
  ``` 
+ 
 ##  CSS - Quick Summary: 
+Cascading Stylesheets or CSS is used to define the style and arrangement of your website. There are many ways to style a webpage, but the most common procedure is to create a css file and style your html elements externally. 
 
+``` html 
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+```
+
+``` css 
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    color:green;
+}
+```
 
 ## Module 3 - A Basic Template and Testing Your Files
 
@@ -260,7 +291,7 @@ If you don't specify all the widths for each screen size, each column will appea
 
 If you made two medium columns of width 6 (col-md-6), if the user is using a laptop or a desktop, they will see 2 columns next to each other. However, if you're viewing it on a tablet or phone, you will see 1 column and then will have to scroll down to see the next one. Test the grid system out on your file and try changing the size of your browser window.
 
-```html
+``` html
 <div class="container-fluid">
  <div class="row">
   <div class="col-md-3 col-s-4 col-xs-6">
