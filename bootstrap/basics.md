@@ -187,7 +187,28 @@ The Example Decomposed:
  - \<td> defines table data
  - \<th> a table row can also be divided into table headings 
   
+## Anchors - Links within a page
+Linking to anchors is very similar to normal links. Normal links always point to the top of a page. Anchors point to a place within a page.
 
+A # in front of a link location specifies that the link is pointing to an anchor on a page. (Anchor meaning a specific place in the middle of your page). 
+
+To link to an anchor you need to: 
+Create a link pointing to the anchor
+
+
+Create the anchor itself.
+
+
+An anchor is created using the <a> tag. 
+If you want to create an anchor called chapter4, you simply add this line where you want the anchor to be:
+``` html
+<a name="chapter4"></a> 
+```
+
+After doing this, you can make a link pointing to the anchor using the normal <a href> tag, like this:
+``` html
+Click <a href="#chapter4">here</a> to read chapter 4. 
+```
 ##  CSS - Quick Summary: 
 
 
