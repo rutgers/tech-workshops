@@ -29,7 +29,7 @@ HTML is built around tags - all text on a page starts and ends in a tag. For exa
 ```
 1. The first line at the top <!DOCTYPE html>, defines the document type. Letting the broswer know which flavor of html you are using (by default it's HTML 5, the latest version). Without this declaration you will get unexpected behavior from the browser. 
 
-## Module 2 - It'a \<html\><Tag>  \<html\></Tag> World! 
+## Module 2 - It'a \<tag>  \</tag> World! 
 
 1. As mentioned, HTML is built all around what we call "tags". Tags basically tell the broswer how to interpret certain blocks of code. By its nature, HTML is a hiearchical language where the placement of the tag helps define the webpage we are creating. There are the main tags that we will cover: 
  ``` html
@@ -84,7 +84,7 @@ instead the webpage would simply display all the tags:
 </html>
 ```
 ## The Div Tag:
-5. The \<html><div> tag defines a division or section in an html document. This may sound boring but the div tag is the workhorse of an hmtl webpage. They are extremely useful because div tags are often used to arrange elements together with CSS. Let's take a look at an example: 
+5. The \<div> tag defines a division or section in an html document. This may sound boring but the div tag is the workhorse of an hmtl webpage. They are extremely useful because div tags are often used to arrange elements together with CSS. Let's take a look at an example: 
 ``` html
 <!DOCTYPE html>
 <html>
