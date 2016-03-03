@@ -115,7 +115,7 @@ instead the webpage would simply display all the tags:
 </body>
 </html>
  ``` 
- ## Images 
+## Images 
  7. Often times you want to insert an image into a webpage. You should use the img tag. 
  ``` html
  <!DOCTYPE html> 
