@@ -187,9 +187,9 @@ The Example Decomposed:
 ##  CSS - Quick Summary: 
 
 
-## Module 3 - A Basic Template
+## Module 3 - A Basic Template and Testing Your Files
 
-First, download the template named carousel.html that can be found in this folder. Then, try opening the file with your browser of choice. This template features a carousel that automatically switches between multiple photos in addition to a responsive navbar. Try playing around with changing the `src` attribute of the various `img` tags to see how it changes the site.
+First, download the template named carousel.html that can be found in this folder. Then, try opening the file with your browser of choice. Whenever you make a change, be sure to save your html file and refresh in your browser! This template features a carousel that automatically switches between multiple photos in addition to a responsive navbar. Try playing around with changing the `src` attribute of the various `img` tags to see how it changes the site.
 
 
 ## Module 4 - The Grid System
@@ -239,26 +239,9 @@ If you made two medium columns of width 6 (col-md-6), if the user is using a lap
 </div>
 ```
 
-## Module 5 - Tables, Buttons and Images
+## Module 5 - Images, Buttons and Tables
 
-Bootstrap's tables, buttons and images are pretty much the same as their normal HTML counterparts but look much better and have several more customization options.
 
-### Tables
-
-First, try adding a normal table to your html page and check out how it looks.
-
-Then, try adding a `class="table"` attribute to your table tag and see how it changes.
-
-Test out the following attribute values and see which you like the best:
-
-```html
-class="table table-striped"
-class="table table-bordered"
-class="table table-hover"
-class="table table-condensed"
-```
-
-In addition, try adding "active", "success", "info" and "danger" to a row's class attribute as well and see how the colors change!
 
 ### Buttons
 
@@ -284,8 +267,42 @@ In addition, try adding "active", "success", "info" and "danger" to a row's clas
 <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
 <button type="button" class="btn btn-link">Link</button>
 ```
+Bootstrap's tables, buttons and images are pretty much the same as their normal HTML counterparts but look much better and have several more customization options.
+
+### Tables
+
+First, try adding a normal table to your html page and check out how it looks.
+
+Then, try adding a `class="table"` attribute to your table tag and see how it changes.
+
+Test out the following attribute values and see which you like the best:
+
+```html
+class="table table-striped"
+class="table table-bordered"
+class="table table-hover"
+class="table table-condensed"
+```
+
+In addition, try adding "active", "success", "info" and "danger" to a row's class attribute as well and see how the colors change!
+
+### Images
+
+You can make images responsive and fill the container by adding the attribute `class="img-responsive"` to any image.
+
+You can also change the shape of an image in bootstrap by linking an image and setting it's class ot one of the following below. Try each one to see how they look!
+
+```html
+<img src="..." alt="..." class="img-rounded">
+<img src="..." alt="..." class="img-circle">
+<img src="..." alt="..." class="img-thumbnail">
+```
+
+## Module 6 - Next Steps
+
+Now that we've taught you the basics and given you a glimpse at Bootstrap's toolbox, let's take our template and attempt to make your own personal website!
+
 
 ## Module - References
 https://getbootstrap.com/css/#overview
-
 http://www.w3schools.com/
