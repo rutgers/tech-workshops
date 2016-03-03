@@ -209,6 +209,21 @@ After doing this, you can make a link pointing to the anchor using the normal <a
 ``` html
 Click <a href="#chapter4">here</a> to read chapter 4. 
 ```
+
+## Links to other pages in your website:
+Links to other pages in your website follow the same thing as hyperlink however the url instead points to the html filename of your other file based on its location in your local file. 
+``` 
+<!DOCTYPE html>
+<html>
+<head>
+<title>My First Page </title>
+</head>
+<h3> Click to go to second page </h3> 
+<body>
+<a href = ./pageTwo.html> On to the next page! </a> 
+</body>
+</html>
+ ``` 
 ##  CSS - Quick Summary: 
 
 
